@@ -12,6 +12,7 @@ vcpkg_extract_source_archive_ex(
         fix-warningC5105.patch
         fix-config-cmake.patch
         use-zlib-target.patch
+	TRICE.remove-pthread_create-linux.patch
 )
 
 # Force crashpad TRICE
